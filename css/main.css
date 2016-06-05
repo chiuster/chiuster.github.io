@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: "Raleway";
+}
+
+.navbar {
+  border: 0;
+  background-color: #FFA818;
+}
+
+.navbar .container {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.navbar .navbar-brand {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav.navbar-nav.navbar-right li a {
+  color: #FFF;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.jumbotron {
+  background-color: #FFA818;
+  color: #FFF;
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.jumbotron .btn {
+  border: 1px solid #FFA818;
+  background-color: #FFF;
+  color: #FFA818;
+  padding: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 10px;
+}
+
+.jumbotron .btn:hover {
+  border: 1px solid #FFF;
+  background-color: #FFA818;
+  color: #FFF;
+}
+
+.section {
+  margin: auto;
+  text-align: center;
+}
+
+.section .container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+
+.section h1 {
+  padding: 20px;
+}
+
+.section p {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.orange {
+  background-color: #FFA818;
+  color: #FFF;
+}
