@@ -1,62 +1,174 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ryan Chiu</title>
+    <title>Ryan Guan Chiu</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.png" />
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,700,900,400italic,100italic,700italic,900italic' rel='stylesheet' type='text/css'>
-    <style type="text/css">
-      body {
-        background: url("img/header-bg.jpg") no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        font-family: "Raleway";
-      }
 
-      #box {
-        background-color: #FFF;
-        border-radius: 1em;
-        border: 2px solid #FFF;
-        position: absolute;
-        top: 25%;
-        width: 50%;
-        left: 25%;
-        text-align: center;
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
 
-        -webkit-box-shadow: 10px 9px 21px -7px rgba(0,0,0,0.58);
-        -moz-box-shadow: 10px 9px 21px -7px rgba(0,0,0,0.58);
-        box-shadow: 10px 9px 21px -7px rgba(0,0,0,0.58);
-      }
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
 
-      #profile_picture {
-        border-radius: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-        width: 20%;
-      }
+    <!-- Custom font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,700,900" rel="stylesheet">
 
-      #box h1 {
-        font-weight: 700;
-        font-size: 28px;
-      }
-
-      #box h2 {
-        font-size: 20px;
-        font-weight: 300;
-        margin-bottom: 50px;
-      }
-    </style>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body>
-    <div id="box">
-      <img id="profile_picture" src="img/ryan.jpg" />
-      <h1>Ryan Chiu</h1>
-      <h2>Front-end &amp; UI/UX Developer from Chicago, IL</h2>
+    <!-- START jumbotron -->
+    <div class="jumbotron">
+      <!-- BEGIN nav bar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+              Ryan Chiu
+            </a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigationbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="navbar-collapse collapse" id="navigationbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#education">Education</a></li>
+              <li><a href="#work">Work Experiences</a></li>
+              <li><a href="#research">Research/Publications</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- END nav bar -->
+
+      <!-- BEGIN header information -->
+      <div class="col-md-6">
+        <h1>Medical student, consultant CTO, and policy analyst</h1>
+        <p>
+          Efficiency in one form or another is a solution to many of the issues
+          currently facing our world. This can occur on two fronts -- through technological
+          innovation and adoption, as well as effective policy on organizationation and
+          institutional fronts. It is my goal to intertwine these aspects in improving
+          health outcomes and delivery systems.
+        </p>
+        <p>
+          <a href="#" class="btn btn-lg dark">Read my resume/CV</a>
+          <a href="#" class="btn btn-lg">Contact me</a>
+        </p>
+      </div>
+      <div class="col-xs-6 col-sm-0 col-md-6">
+        <img class="profile" src="profile.png" />
+      </div>
+      <!-- END header information -->
     </div>
+    <!-- END jumbotron -->
+
+    <!-- Intro -->
+    <div class="row">
+      <div class="col-xs-12 col-md-3"></div>
+      <div class="col-xs-12 col-md-6">
+        <h1>Foreward</h1>
+        <p>
+          I was born in the great city of Chicago, IL and have resided within the area for my entire life.
+          From a young age, I have always been captivated by the lure of technology and innovation, and learned
+          to code my first computer program at the age of 9.
+        </p>
+        <p>
+          But it wasn't merely the thrill of learning new programming languages and software suites that
+          piqued my interest, but rather the application of these skills to addressing real-world issues, the solutions
+          to which may have ever-lasting consequences on the lives and experiences of everyday people.
+        </p>
+        <p>
+          It is my hope that, by sparking innovation within individuals, organizations, and institutions, in
+          conjunction with effective policy-making, opportunity and a superior quality of life will become accessible
+          to a greater number of people. That has been the essence of my life's work, and will continue to be for
+          the years to come.
+        </p>
+      </div>
+      <div class="col-xs-12 col-md-3"></div>
+    </div>
+
+    <!-- Education -->
+    <div class="row dark">
+      <div class="col-xs-12 col-md-3"></div>
+      <div class="col-xs-12 col-md-6">
+        <h1>Education</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum id ex vel tempus. Phasellus tristique dui sed scelerisque bibendum. Proin convallis, tellus ut iaculis gravida, ante enim efficitur magna, ac dapibus sapien ex quis dui. Aliquam a enim diam. Proin elit mi, bibendum a vulputate id, molestie id eros. Nam at leo sem. Nullam at consectetur neque, sodales rutrum ante. Integer non risus at nisi fringilla imperdiet. Phasellus ut accumsan nibh. Ut consectetur odio felis, id vestibulum sem sagittis nec. Sed magna leo, tincidunt vitae vulputate quis, feugiat nec enim. Fusce dolor enim, vestibulum eget tincidunt vitae, porttitor vitae ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris finibus elit ipsum, quis suscipit risus vulputate quis. Nullam facilisis posuere urna, et placerat ante mollis sed.
+        </p>
+      </div>
+      <div class="col-xs-12 col-md-3"></div>
+    </div>
+
+    <!-- Employment -->
+    <div class="row bw">
+      <div class="col-xs-12 col-md-3"></div>
+      <div class="col-xs-12 col-md-6">
+        <h1>Employment</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum id ex vel tempus. Phasellus tristique dui sed scelerisque bibendum. Proin convallis, tellus ut iaculis gravida, ante enim efficitur magna, ac dapibus sapien ex quis dui. Aliquam a enim diam. Proin elit mi, bibendum a vulputate id, molestie id eros. Nam at leo sem. Nullam at consectetur neque, sodales rutrum ante. Integer non risus at nisi fringilla imperdiet. Phasellus ut accumsan nibh. Ut consectetur odio felis, id vestibulum sem sagittis nec. Sed magna leo, tincidunt vitae vulputate quis, feugiat nec enim. Fusce dolor enim, vestibulum eget tincidunt vitae, porttitor vitae ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris finibus elit ipsum, quis suscipit risus vulputate quis. Nullam facilisis posuere urna, et placerat ante mollis sed.
+        </p>
+      </div>
+      <div class="col-xs-12 col-md-3"></div>
+    </div>
+
+    <!-- Research/Publications -->
+    <div class="row dark">
+      <div class="col-xs-12 col-md-3"></div>
+      <div class="col-xs-12 col-md-6">
+        <h1>Research/Publications</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum id ex vel tempus. Phasellus tristique dui sed scelerisque bibendum. Proin convallis, tellus ut iaculis gravida, ante enim efficitur magna, ac dapibus sapien ex quis dui. Aliquam a enim diam. Proin elit mi, bibendum a vulputate id, molestie id eros. Nam at leo sem. Nullam at consectetur neque, sodales rutrum ante. Integer non risus at nisi fringilla imperdiet. Phasellus ut accumsan nibh. Ut consectetur odio felis, id vestibulum sem sagittis nec. Sed magna leo, tincidunt vitae vulputate quis, feugiat nec enim. Fusce dolor enim, vestibulum eget tincidunt vitae, porttitor vitae ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris finibus elit ipsum, quis suscipit risus vulputate quis. Nullam facilisis posuere urna, et placerat ante mollis sed.
+        </p>
+      </div>
+      <div class="col-xs-12 col-md-3"></div>
+    </div>
+
+    <!-- Contact -->
+    <div class="row wood">
+      <div class="col-xs-12 col-md-3"></div>
+      <div class="col-xs-12 col-md-6">
+        <h1>Contact Me</h1>
+        <p>
+          Want to reach out? Just fill out the form below, and I'll get back to you as soon as possible (usually within 1-2 days).
+          Alternatively, you can always email me directly at <a href="mailto:ryan@illinois.com">ryan@illinois.com</a> or call me at
+          +1 (847) 445-7886
+          </menu>
+        </p>
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" id="name" placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="Your email address">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Your inequiry"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="col-xs-12 col-md-3"></div>
+    </div>
+
+    <footer class="footer">
+      Copyright &copy; 2017 Ryan Chiu. All rights reserved.
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
